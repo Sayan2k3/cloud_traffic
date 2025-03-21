@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud-Based Traffic Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Cloud-Based Traffic Management System</h1>
+            <p>Real-time Traffic Analytics</p>
+        </header>
+
+        <!-- Dashboard Section -->
+        <div class="dashboard">
+            <div class="chart-card">
+                <h3>Average Speed Over Time</h3>
+                <canvas id="speedChart"></canvas>
+            </div>
+            <div class="chart-card">
+                <h3>Congestion Level Over Time</h3>
+                <canvas id="congestionChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Traffic Data Section -->
+        <div class="traffic-data">
+            <div class="data-card">
+                <h3>Current Traffic Data</h3>
+                <p id="vehicleId">Vehicle ID: ---</p>
+                <p id="vehicleSpeed">Speed: --- km/h</p>
+                <p id="vehicleLocation">Location: ---</p>
+                <p id="timestamp">Timestamp: ---</p>
+            </div>
+
+            <div class="data-card">
+                <h3>Traffic Analytics</h3>
+                <p id="avgSpeed">Average Speed: --- km/h</p>
+            </div>
+        </div>
+
+        <!-- Recommendations Section -->
+        <div class="traffic-data">
+            <div class="data-card">
+                <h3>Traffic Recommendations</h3>
+                <p id="congestionLevel">Congestion Level: ---</p>
+                <p id="recommendation">Recommendation: ---</p>
+            </div>
+        </div>
+
+        <footer>
+            <p> Made by Sayanpaul</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+</html>
